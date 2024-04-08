@@ -7,20 +7,31 @@ Impact: Picture this: You're cruising through your day, ready to conquer the dig
 Root Cause: Turns out, our beloved load balancer decided to play favorites and sent all the traffic to a few servers while leaving others twiddling their thumbs. Misconfiguration strikes again!
 
 Timeline:
+
 10:00 AM (UTC): The day took a nosedive when monitoring alerts lit up like a Christmas tree, signaling trouble in paradise.
+
 10:15 AM (UTC): Engineers embarked on a wild goose chase, suspecting backend servers were staging a revolt.
+
 10:30 AM (UTC): With no smoking gun in sight, we pointed fingers at the innocent database, accusing it of being sluggish post-deployment.
+
 11:00 AM (UTC): The plot thickened as the network joined the party, with suspicions of foul play in the air.
+
 11:30 AM (UTC): It was time to call in the big guns—the network infrastructure team took the stage.
+
 12:00 PM (UTC): Cue dramatic music! The culprit was unmasked—our load balancer had been playing favorites, causing chaos in the system.
+
 12:30 PM (UTC): With a flick of the switch (and a few choice words), load balancer settings were set straight.
+
 1:00 PM (UTC): Peace was restored in the digital kingdom, and users rejoiced as the app sprung back to life.
+
 Root Cause and Resolution:
+
 Root Cause: Our mischievous load balancer decided it was the king of the playground, unfairly sending all the traffic to a select few servers, leaving others feeling left out and useless.
 
 Resolution: The load balancer received a stern talking-to and was promptly reconfigured to share the love evenly among all servers. Automated checks were put in place to keep it in line.
 
 Corrective and Preventative Measures:
+
 Load Balancer Re-Education: We're sending our load balancer back to school to learn the importance of sharing. No more playing favorites!
 
 Task: Organize a crash course for the load balancer on fair traffic distribution.
